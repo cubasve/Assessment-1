@@ -1,0 +1,36 @@
+button {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: grey;
+}
+
+#subtract {
+    padding: 8px 15px;
+}
+
+#add {
+    padding: 7px 12px;
+}
+
+#inputNumber {
+    padding: 5px;
+    width: 60px;
+    font-size: 25px;
+    margin: 5px;
+    border: 4px solid grey;
+    border-radius: 10%;
+}
+
+section, h1 {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+}
