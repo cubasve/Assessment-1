@@ -1,4 +1,3 @@
-console.log('Hello');
 /*-------CONSTANTS--------*/ 
 let input = 1
 let count = 0;
