@@ -18,7 +18,6 @@ function renderAdd() {
     let inputValue = inputNumber.value;
     let number = parseInt(inputValue, 10);
     count += number;
-    console.log(count);
     countNumber.innerHTML = count;
 }
 
@@ -26,7 +25,6 @@ function renderSubtract() {
     let inputValue = inputNumber.value;
     let number = parseInt(inputValue, 10);
     count -= number;
-    console.log(count);
     countNumber.innerHTML = count;
     
 }
